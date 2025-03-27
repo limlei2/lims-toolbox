@@ -27,9 +27,13 @@
               }
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [],
+            "ngxEnv": {
+              "prefix": "NG_APP_"
+            },
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
